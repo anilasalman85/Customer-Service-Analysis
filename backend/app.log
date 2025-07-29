@@ -1,0 +1,10 @@
+2025-05-23 15:00:50,785 - __main__ - ERROR - Error loading model or label encoders: [Errno 2] No such file or directory: './model/label_encoders.joblib'
+2025-05-23 15:05:37,925 - __main__ - INFO - Successfully loaded model and label encoders
+2025-05-23 15:05:38,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.120.151.172:5000
+2025-05-23 15:05:38,107 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 15:07:13,092 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 15:07:13] "OPTIONS /predict HTTP/1.1" 200 -
+2025-05-23 15:07:13,412 - __main__ - INFO - Prediction made: 1 with probability 0.66
+2025-05-23 15:07:13,416 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 15:07:13] "POST /predict HTTP/1.1" 200 -
